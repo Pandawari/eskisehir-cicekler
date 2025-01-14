@@ -1,0 +1,73 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: #ead7c3; /* Light Pink Background */
+  font-family: 'Lora', serif; /* Use Lora font */
+}
+#root {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.app {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  gap: 1rem;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.map-container {
+  flex: 2;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center; /* Center vertically */
+  position: relative;
+  background-color: #FFFFFF; /* White background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.map-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.base-map, .overlay-map {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay-map {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.flower-list-container {
+  flex: 1;
+  height: 100%;
+  box-sizing: border-box;
+  overflow-y: auto;
+  background-color: #FFFFFF; /* White background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.flower-detail-container {
+  flex: 1;
+  height: 100%;
+  box-sizing: border-box;
+  overflow-y: auto;
+  background-color: #FFFFFF; /* White background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}

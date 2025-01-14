@@ -1,0 +1,68 @@
+.flower-detail {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 1rem;
+  background-color: #FFFFFF; 
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  overflow-y: auto;
+  position: relative;
+  box-sizing: border-box; 
+  font-family: 'Lora', serif; /* Use Lora font */
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  background-color: #ead7c3; /* Light Pink background, same as page background */
+  padding-top: 2rem; /* Add padding to create space for the close button */
+  border-radius: 8px; /* Rounded corners */
+  margin-bottom: 1rem; /* Add gutter space below the image container */
+}
+
+.close-button {
+  position: absolute;
+  top: 0.5rem; /* Position inside the image container */
+  left: 0.2rem; /* Move to the left side */
+  background: none;
+  border: none; /* Remove border */
+  color: #000000; /* Black text color */
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+  transition: color 0.3s, transform 0.3s, box-shadow 0.3s; /* Smooth transitions */
+}
+
+.close-button:hover {
+  color: #555555; /* Darker black on hover */
+  transform: scale(1.1); /* Slightly enlarge on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.flower-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  background-color: #ead7c3; /* Light Pink background, same as page background */
+  padding: 1rem; /* Add padding to create space around the image */
+  
+  box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+}
+
+.flower-description {
+  background-color: #ead7c3; /* Light Pink background, same as page background */
+  border-radius: 8px; /* Rounded corners */
+  padding: 1rem;
+  color: #000000; /* Black text color */
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+}
+
+.flower-audio {
+  width: 100%;
+  box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+}

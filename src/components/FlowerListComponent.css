@@ -1,0 +1,31 @@
+.flower-list {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: flex-start; /* Align items to the start */
+  padding: 1rem;
+  background-color: #FFFFFF; /* White background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  overflow-y: auto; /* Ensure scrolling if content overflows */
+  font-family: 'Lora', serif; /* Use Lora font */
+}
+
+.flower-item {
+  font-size: 1.5rem; /* Adjust the font size as needed */
+  cursor: pointer;
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.5rem; /* Space between items */
+  background-color: #ead7c3; /* Light Blue background with transparency */
+  border-radius: 4px; /* Rounded corners for items */
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s; /* Smooth transitions */
+  text-align: center; /* Center text */
+  color: #2a283c; /* Set font color to white */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.flower-item:hover {
+  background-color: rgba(146, 168, 209, 1); /* Slightly darker background on hover */
+  transform: translateY(-2px); /* Slight lift on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
